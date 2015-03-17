@@ -31,6 +31,14 @@
 	background: #fff;
 }
 
+.step .sortable li:hover{
+	background-color: #eee;
+}
+
+.step .total{
+	text-align: right;
+}
+
 .blueBorder{
 	border-left:8px solid rgb(14, 144, 210);
 }
@@ -46,6 +54,12 @@
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 	position: relative;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
 }
 
 .task .description {
@@ -56,6 +70,14 @@
 .task .edit{
 	position: absolute;
 	top: 1px;
+	right: 2px;
+	letter-spacing: normal;
+	cursor: pointer;
+}
+
+.task .sub-task{
+	position: absolute;
+	top: 12px;
 	right: 2px;
 	letter-spacing: normal;
 	cursor: pointer;
