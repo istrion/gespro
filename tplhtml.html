@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Your first Backbone.js App | Tutorialzine </title>
+
+        <!-- Google web fonts -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+
+    <body>
+    <div class="content-menu">
+        <div class="pure-menu pure-menu-horizontal">
+            <span class="pure-form"><input type="email" placeholder="Rechercher"></span>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Projets</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Liste des sprints</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sprint en cours</a></li>
+                <li class="pure-menu-item">
+                    <button class="button-secondary pure-button">
+                        <i class="fa fa-cog"></i>
+                        Settings
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="pure-g">
+        <div class="pure-u-1-4 xx">
+            <div class="pure-g step">
+                <h2 class="pure-u-5-6">A faire</h2>
+                <div class="pure-u-1-6 pure-form" style="
+    text-align: right;
+">
+                    <input class="pure-u-2-3" type="text" style="
+    font-size: 12px;
+">
+                </div>
+                <ul class="sortable">
+                <li>
+                    <div class="task blueBorder">
+                        <i class="fa fa-pencil edit"></i>
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                </ul>
+<div class="pure-g"><span class="pure-u-1-5">25</span></div>
+            </div>
+        </div>
+        <div class="pure-u-1-4 xx">
+            <div class="pure-g step">
+                <h2 class="pure-u-5-6">A faire</h2>
+                <div class="pure-u-1-6 pure-form" style="
+    text-align: right;
+">
+                    <input class="pure-u-2-3" type="text" style="
+    font-size: 12px;
+">
+                </div>
+                <ul class="sortable">
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="pure-u-1-4 xx">
+            <div class="pure-g step">
+                <h2 class="pure-u-5-6">A faire</h2>
+                <div class="pure-u-1-6 pure-form" style="
+    text-align: right;
+">
+                    <input class="pure-u-2-3" type="text" style="
+    font-size: 12px;
+">
+                </div>
+                <ul class="sortable">
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="pure-u-1-4 xx">
+            <div class="pure-g step">
+                <h2 class="pure-u-5-6">A faire</h2>
+                <div class="pure-u-1-6 pure-form" style="
+    text-align: right;
+">
+                    <input class="pure-u-2-3" type="text" style="
+    font-size: 12px;
+">
+                </div>
+                <ul class="sortable">
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="task blueBorder">
+                        <p class="pure-u-1 description"><span class="taskId"></span>Intitulé de ma tache mais pas trop long sinon ça va dépasser</p>
+
+                        <span class="more-informations">
+                            <span class="user"></span>
+                            <span>5</span>
+                        </span>
+                        
+                    </div>
+                </li>
+                </ul>
+
+            </div>
+        </div
+>    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $( ".sortable" ).sortable({
+              connectWith: ".sortable"
+            }).disableSelection();
+          });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+.content-menu {
+	margin:10px 0px 5px 0px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.step{
+	border:1px solid #bbbbbb;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin:5px;
+	padding: 5px;
+	padding-bottom: 25px;
+}
+
+.step h2{
+	font-size: 15px;
+	margin: 0px;
+	color:#666;
+}
+
+.step .sortable{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.step .sortable li{
+	margin: 5px 0px 5px 0px;
+	background: #fff;
+}
+
+.blueBorder{
+	border-left:8px solid rgb(14, 144, 210);
+}
+
+.redBorder {
+	border-left:8px solid rgb(202, 60, 60);
+	
+}
+
+.task{
+	padding-left: 5px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	position: relative;
+}
+
+.task .description {
+	margin-bottom: 35px;
+	font-size: 0.9em;
+}
+
+.task .edit{
+	position: absolute;
+	top: 1px;
+	right: 2px;
+	letter-spacing: normal;
+	cursor: pointer;
+}
+
+.task .taskId{
+
+}
+.task .more-informations{
+	position: absolute;
+	right: 5px;
+	left:5px;
+	bottom: 5px;
+	text-align: right;
+	letter-spacing:normal;
+}
+.task .more-informations .user{
+	position: absolute;
+	display: inline-block;
+	border: 1px solid #ddd;
+	width: 25px;
+	height: 25px;
+	left:0px;
+	bottom:0px;
+}
+
